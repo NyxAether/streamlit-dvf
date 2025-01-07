@@ -7,7 +7,11 @@ authors = [
     { name = "NyxAether", email = "contact.nyxhemera@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "numpy>=2.2.1",
+    "pandas >=2, <3",
+    "streamlit >=1, <2",
+]
 
 [project.scripts]
 streamlit-dvf = "streamlit_dvf:main"
